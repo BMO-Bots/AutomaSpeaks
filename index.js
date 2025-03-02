@@ -3,6 +3,7 @@ const { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder
 const webhookChannelId = '1328415638011772950'; // Canale dove il webhook invia i contenuti
 const evaluationChannelId = '1328473880725029034'; // Canale per l'accettazione/rifiuto
 const acceptedChannelId = '1328831468939640974'; // Canale per i contenuti accettati
+const BOT_TOKEN = process.env.TOKEN;
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });
 
