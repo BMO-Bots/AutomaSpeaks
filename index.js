@@ -111,7 +111,7 @@ client.on('messageCreate', async (message) => {
                 );
 
                 await sentMessage.edit({
-                    content: `❌RIFIUTATO❌\n👤 ${username}\n[Link rimosso]`,
+                    content: `❌RIFIUTATO❌\n👤 ${username}\n[Audio rimosso]`,
                     components: [disabledRow]
                 });
 
