@@ -1,6 +1,5 @@
 const { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 
-const token = 'MTMyODQxMzM4MTY0ODE5MTQ5OA.G7BpB2.mK672gAQ0lwbD6-_ED1h-QV9kIGd_AIYEOkAao'; // Sostituisci con il token del bot
 const webhookChannelId = '1328415638011772950'; // Canale dove il webhook invia i contenuti
 const evaluationChannelId = '1328473880725029034'; // Canale per l'accettazione/rifiuto
 const acceptedChannelId = '1328831468939640974'; // Canale per i contenuti accettati
