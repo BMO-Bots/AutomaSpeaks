@@ -8,5 +8,6 @@
     "fs": "^0.0.1-security",
     "greetify": "^2.0.1",
     "quick.db": "^9.1.7"
+    "express": "^4.18.2"
   }
 }
