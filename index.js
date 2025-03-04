@@ -22,6 +22,15 @@ client.once('ready', () => {
 
 });
 
+// Web server per Uptime Robot
+app.get('/', (req, res) => {
+    res.send('<h1>Vivo</h1>');  // Mostra la scritta "Vivo"
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
+
 client.on('messageCreate', async (message) => {
     console.log(`Ricevuto messaggio da ${message.channel.id}: ${message.content}`);
     console.log(`Autore del messaggio: ${message.author.tag}`);
